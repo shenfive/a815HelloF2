@@ -10,6 +10,11 @@
 
 
 
+// Swift override func viewDidLoad() { super.viewDidLoad() if let token = AccessToken.current, !token.isExpired { // User is logged in, do work such as go to next view controller. } }
+    
+
+
+
 import FBSDKLoginKit
 import UIKit
 
