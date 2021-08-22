@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7FAD519252B5B46C5189BFAE /* Pods_a815HelloF2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181BBA7007776DBA466A77D0 /* Pods_a815HelloF2.framework */; };
 		BA9F888126D23B33001868EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9F888026D23B33001868EB /* AppDelegate.swift */; };
 		BA9F888326D23B33001868EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9F888226D23B33001868EB /* SceneDelegate.swift */; };
 		BA9F888526D23B33001868EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9F888426D23B33001868EB /* ViewController.swift */; };
 		BA9F888826D23B33001868EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA9F888626D23B33001868EB /* Main.storyboard */; };
 		BA9F888A26D23B34001868EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA9F888926D23B34001868EB /* Assets.xcassets */; };
 		BA9F888D26D23B34001868EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA9F888B26D23B34001868EB /* LaunchScreen.storyboard */; };
+		BA9F889526D23C61001868EB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA9F889426D23C61001868EB /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		181BBA7007776DBA466A77D0 /* Pods_a815HelloF2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_a815HelloF2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6C1C858827C9C53EF2DD6DA /* Pods-a815HelloF2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-a815HelloF2.debug.xcconfig"; path = "Target Support Files/Pods-a815HelloF2/Pods-a815HelloF2.debug.xcconfig"; sourceTree = "<group>"; };
+		B7C04C29E44143FBFDCB475C /* Pods-a815HelloF2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-a815HelloF2.release.xcconfig"; path = "Target Support Files/Pods-a815HelloF2/Pods-a815HelloF2.release.xcconfig"; sourceTree = "<group>"; };
 		BA9F887D26D23B33001868EB /* a815HelloF2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = a815HelloF2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA9F888026D23B33001868EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA9F888226D23B33001868EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		BA9F888926D23B34001868EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA9F888C26D23B34001868EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA9F888E26D23B34001868EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA9F889426D23C61001868EB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FAD519252B5B46C5189BFAE /* Pods_a815HelloF2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ADD8D8DF0053630B4EC23FCF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				181BBA7007776DBA466A77D0 /* Pods_a815HelloF2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BA9F887426D23B33001868EB = {
 			isa = PBXGroup;
 			children = (
 				BA9F887F26D23B33001868EB /* a815HelloF2 */,
 				BA9F887E26D23B33001868EB /* Products */,
+				F15C391318EC68C5FA4386B0 /* Pods */,
+				ADD8D8DF0053630B4EC23FCF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +75,7 @@
 			children = (
 				BA9F888026D23B33001868EB /* AppDelegate.swift */,
 				BA9F888226D23B33001868EB /* SceneDelegate.swift */,
+				BA9F889426D23C61001868EB /* GoogleService-Info.plist */,
 				BA9F888426D23B33001868EB /* ViewController.swift */,
 				BA9F888626D23B33001868EB /* Main.storyboard */,
 				BA9F888926D23B34001868EB /* Assets.xcassets */,
@@ -67,6 +85,16 @@
 			path = a815HelloF2;
 			sourceTree = "<group>";
 		};
+		F15C391318EC68C5FA4386B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6C1C858827C9C53EF2DD6DA /* Pods-a815HelloF2.debug.xcconfig */,
+				B7C04C29E44143FBFDCB475C /* Pods-a815HelloF2.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +102,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA9F889126D23B34001868EB /* Build configuration list for PBXNativeTarget "a815HelloF2" */;
 			buildPhases = (
+				B858DBA7972203627201E29D /* [CP] Check Pods Manifest.lock */,
 				BA9F887926D23B33001868EB /* Sources */,
 				BA9F887A26D23B33001868EB /* Frameworks */,
 				BA9F887B26D23B33001868EB /* Resources */,
+				26104DDC8BEE53E874F6733D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,12 +155,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA9F888D26D23B34001868EB /* LaunchScreen.storyboard in Resources */,
+				BA9F889526D23C61001868EB /* GoogleService-Info.plist in Resources */,
 				BA9F888A26D23B34001868EB /* Assets.xcassets in Resources */,
 				BA9F888826D23B33001868EB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26104DDC8BEE53E874F6733D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-a815HelloF2/Pods-a815HelloF2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-a815HelloF2/Pods-a815HelloF2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-a815HelloF2/Pods-a815HelloF2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B858DBA7972203627201E29D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-a815HelloF2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BA9F887926D23B33001868EB /* Sources */ = {
@@ -283,6 +356,7 @@
 		};
 		BA9F889226D23B34001868EB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6C1C858827C9C53EF2DD6DA /* Pods-a815HelloF2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +376,7 @@
 		};
 		BA9F889326D23B34001868EB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7C04C29E44143FBFDCB475C /* Pods-a815HelloF2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
